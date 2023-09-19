@@ -93,3 +93,13 @@ h1 {
     margin-left: 10px;
     width: 15px;
 }
+
+.delete-box{
+    width: 100px;
+    height: 100px;
+    background-color: #F77F00;
+}
+
+.modal-container {
+    background-color: #F77F00;
+}

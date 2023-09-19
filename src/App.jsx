@@ -14,10 +14,14 @@ function App() {
       setTasks(AddedTodo);
   }
 
-  // const renderedTasks = tasks.map((task) => {
+  const deleteTask = (id) => {
+    const deletedTask = tasks.filter((task) => {
+      return task.id !== id;
+    });
+    
+    setTasks(deletedTask);
 
-  // })
-
+  };
 
   return (
     <>
@@ -28,7 +32,7 @@ function App() {
       
       <CreateTodo onCreateTodo={createTodo} />
         {tasks.map((task) => {
-          return <TodoDisplay  key={task.id} task={task} />
+          return <TodoDisplay  key={task.id} task={task} onDelete={deleteTask} />
         })}
     </div>
     </div>

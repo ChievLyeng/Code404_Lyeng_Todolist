@@ -1,9 +1,11 @@
 import {BiEdit} from 'react-icons/bi'; 
 import {AiFillDelete} from 'react-icons/ai';
+import { useState } from 'react';
+import { DeleteModal } from './DeleteModal';
 
-export const TodoDisplay = ({task}) => {
+export const TodoDisplay = ({task,onDelete}) => {
+    const [confirm,setConfirm] = useState(false);    
 
-    console.log(task);
     return (
             <div className="task">
                 <p>{task.todo}</p>
@@ -12,9 +14,13 @@ export const TodoDisplay = ({task}) => {
                         <BiEdit icon={BiEdit} size={30} />
                     </button>
                     <button className="todo-btn">
-                        <AiFillDelete icon={AiFillDelete} size={30} />
+                        <AiFillDelete icon={AiFillDelete} size={30} onClick={() => (setConfirm(true))} />
                     </button>
                 </div>
+
+                {confirm && (
+                    <DeleteModal onDelete={onDelete} />
+                )}
             </div>
        
     );
