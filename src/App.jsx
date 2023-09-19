@@ -21,10 +21,18 @@ function App() {
 
   return (
     <>
+    <div className='container-all'>
+      <h1>To Do App</h1>
+      <div className='todo-container'>
+
+      
       <CreateTodo onCreateTodo={createTodo} />
-      {tasks.map((task) => {
-        return <TodoDisplay  key={task.id} task={task} />
-      })}
+        {tasks.map((task) => {
+          return <TodoDisplay  key={task.id} task={task} />
+        })}
+    </div>
+    </div>
+      
     </>
   )
 }

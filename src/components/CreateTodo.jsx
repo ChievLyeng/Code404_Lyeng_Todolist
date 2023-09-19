@@ -8,19 +8,23 @@ export const CreateTodo = ({onCreateTodo}) => {
     }
 
     const handleSubmit = (event) => {
-        if (todo) {
-            event.preventDefault();
+   
+        event.preventDefault();
+
+        if (todo){
             onCreateTodo(todo);
             setTodo('')
         }
-        alert(todo)
+
     }
 
     return (
         <div onSubmit={handleSubmit}>
-            <form>
-                <input type="text" value={todo} onChange={handleChange} />
-                <button>Add</button>
+            <form className="todo-form">
+                <input className="todo-input" type="text" placeholder="What are your tasks ?"
+                 value={todo} onChange={handleChange}
+                  />
+                <button className="add-button">Add</button>
             </form>
         </div>
     );

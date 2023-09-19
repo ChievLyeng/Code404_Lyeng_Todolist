@@ -1,0 +1,111 @@
+body{
+    background-color:#f77f00;
+}
+
+.container-all{
+    margin-top: 100px;
+    width: 600px;
+    min-height: 400px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    transition: ease all .3s;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #f77f00;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Black Ops One', sans-serif;
+}
+
+.todo-container{
+    padding: 50px;
+    padding-top: 30px;
+}
+
+/* .todo-form-container{
+    width: 80%;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 50px auto;
+   
+} */
+
+.todo-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+  
+
+.todo-input{
+    width: 300px;
+    height: 30px;
+}
+
+
+.todo-input{
+    width: 410px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #f77f00;
+    background-color: #edf2f4;
+    background: transparent;
+    outline: none;
+    text-indent: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    font-family: 'Courier New', sans-serif;
+}
+
+.todo-input::placeholder {
+    opacity: 70%;
+    font-family: Arial,sans-serif;
+}
+
+.add-button{
+    width: 60px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.todo-btn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid #F77F00;
+    text-indent: 10px;
+}
+
+.show-task{
+    display: flex;
+    overflow: hidden;
+}
+
+.show-task > input {
+    margin-left: 10px;
+    width: 15px;
+}
