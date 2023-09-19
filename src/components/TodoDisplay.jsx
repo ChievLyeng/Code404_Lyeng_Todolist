@@ -9,10 +9,10 @@ export const TodoDisplay = ({task}) => {
                 <p>{task.todo}</p>
                 <div>
                     <button className="todo-btn">
-                    <BiEdit icon={BiEdit} size={30} />
+                        <BiEdit icon={BiEdit} size={30} />
                     </button>
                     <button className="todo-btn">
-                    <AiFillDelete icon={AiFillDelete} size={30} />
+                        <AiFillDelete icon={AiFillDelete} size={30} />
                     </button>
                 </div>
             </div>

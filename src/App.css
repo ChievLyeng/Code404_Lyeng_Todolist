@@ -1,5 +1,5 @@
 body{
-    background-color:#f77f00;
+    background-color: #a9def9;
 }
 
 .container-all{
@@ -27,31 +27,15 @@ h1 {
     padding-top: 30px;
 }
 
-/* .todo-form-container{
-    width: 80%;
-    height: 100px;
-    background-color: aquamarine;
-    margin: 50px auto;
-   
-} */
-
 .todo-form{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 30px;
+    justify-content: space-between;
 }
-  
-
-.todo-input{
-    width: 300px;
-    height: 30px;
-}
-
 
 .todo-input{
     width: 410px;
-    height: 40px;
+    height: 50px;
     border-radius: 10px;
     border: 1px solid #f77f00;
     background-color: #edf2f4;
@@ -69,8 +53,8 @@ h1 {
 }
 
 .add-button{
-    width: 60px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
     outline: none;
     cursor: pointer;
     border-radius: 10px;
