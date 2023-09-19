@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { CreateTodo } from './components/CreateTodo';
+import { TodoDisplay } from './components/TodoDisplay';
 import './App.css'
 
 function App() {
@@ -13,10 +14,17 @@ function App() {
       setTasks(AddedTodo);
   }
 
+  // const renderedTasks = tasks.map((task) => {
+
+  // })
+
 
   return (
     <>
       <CreateTodo onCreateTodo={createTodo} />
+      {tasks.map((task) => {
+        return <TodoDisplay  key={task.id} task={task} />
+      })}
     </>
   )
 }
