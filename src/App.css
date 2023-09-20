@@ -118,12 +118,10 @@ h1 {
 }
 
 .confirm-content{
-    /* background-color: antiquewhite; */
     text-align: center;
 }
 
 .confirm-header{
-    /* background-color: rgb(92, 34, 146); */
     margin-bottom: 30px;
     text-align: center;
 }
@@ -134,13 +132,11 @@ h1 {
 }
 
 .confirm-body{
-    /* background-color: rgb(115, 51, 8); */
     margin-bottom: 40px;
     font-size: 18px;
 }
 
 .confirm-footer{
-    /* background-color: rgb(115, 8, 108); */
     display: flex;
     justify-content: space-evenly;
 }
