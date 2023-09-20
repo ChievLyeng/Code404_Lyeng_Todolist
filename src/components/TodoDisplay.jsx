@@ -33,10 +33,10 @@ export const TodoDisplay = ({task,onDelete,onEdit}) => {
                 <p>{Todo}</p>
                 <div>
                     <button className="todo-btn">
-                        <BiEdit icon={BiEdit} size={30} onClick={handleEditClick} />
+                        <BiEdit className='edit-icon' icon={BiEdit} size={30} onClick={handleEditClick} />
                     </button>
                     <button className="todo-btn">
-                        <AiFillDelete icon={AiFillDelete} size={30} onClick={handleDelete} />
+                        <AiFillDelete className='delete-icon' icon={AiFillDelete} size={30} onClick={handleDelete} />
                     </button>
                 </div>
 

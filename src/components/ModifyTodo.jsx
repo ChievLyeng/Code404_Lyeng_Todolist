@@ -21,7 +21,7 @@ export const ModifyTodo = ({task,onSubmit}) => {
                         <h5 className="confirm-title">Edit Task</h5>
                     </div>
                     <div className="edit-confirm-body">
-                    <input className="todo-input" value={edit} onChange={handleChange}/>
+                    <input className="edit-input" value={edit} onChange={handleChange}/>
                     </div>
                     <div className="confirm-footer">
                         <button className="confirm-button">
