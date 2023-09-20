@@ -101,5 +101,59 @@ h1 {
 }
 
 .modal-container {
-    background-color: #F77F00;
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+}
+
+.confirm-box{
+    background-color: #a9def9;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.confirm-content{
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+
+.confirm-header{
+    /* background-color: rgb(92, 34, 146); */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.confirm-title{
+   margin-top: 20px;
+   font-size: 24px;
+}
+
+.confirm-body{
+    /* background-color: rgb(115, 51, 8); */
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.confirm-footer{
+    /* background-color: rgb(115, 8, 108); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.confirm-button{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #948d86;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }

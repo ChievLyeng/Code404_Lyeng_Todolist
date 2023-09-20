@@ -19,7 +19,7 @@ export const TodoDisplay = ({task,onDelete}) => {
                 </div>
 
                 {confirm && (
-                    <DeleteModal onDelete={onDelete} />
+                    <DeleteModal onDelete={onDelete} task={task} confirm={setConfirm} />
                 )}
             </div>
        
