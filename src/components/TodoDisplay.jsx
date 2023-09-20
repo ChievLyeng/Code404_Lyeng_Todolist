@@ -5,6 +5,10 @@ import { DeleteModal } from './DeleteModal';
 
 export const TodoDisplay = ({task,onDelete}) => {
     const [confirm,setConfirm] = useState(false);    
+    
+    const handleDelete = () => {
+      setConfirm(true)
+    }
 
     return (
             <div className="task">
@@ -14,7 +18,7 @@ export const TodoDisplay = ({task,onDelete}) => {
                         <BiEdit icon={BiEdit} size={30} />
                     </button>
                     <button className="todo-btn">
-                        <AiFillDelete icon={AiFillDelete} size={30} onClick={() => (setConfirm(true))} />
+                        <AiFillDelete icon={AiFillDelete} size={30} onClick={handleDelete} />
                     </button>
                 </div>
 
