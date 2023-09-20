@@ -12,8 +12,8 @@ export const DeleteModal = ({task,onDelete,confirm}) => {
     return (
         <div className="modal-container">
             <div className="confirm-box">
-                <div className="confirm-content">
-                    <div className="confirm-header">
+                <div className="confirm-header">
+                    <div className="confirm-content">
                         <h5 className="confirm-title">Message Comfirmation</h5>
                     </div>
                     <div className="confirm-body">
