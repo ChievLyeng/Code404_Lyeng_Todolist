@@ -8,7 +8,6 @@ export const CreateTodo = ({onCreateTodo}) => {
     }
 
     const handleSubmit = (event) => {
-   
         event.preventDefault();
 
         if (todo){

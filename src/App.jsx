@@ -9,7 +9,7 @@ function App() {
   const createTodo = (todo) => {
     const AddedTodo = [...tasks,
     {
-      id : Math.round(Math.random() * 99999), todo
+      id : Math.round(Math.random() * 99999999), todo
     }];
       setTasks(AddedTodo);
   }
@@ -23,16 +23,29 @@ function App() {
 
   };
 
+  const editTask = (id,editedTask) => {
+
+    const updatedTasks = tasks.map((task) => {
+      if (task.id === id) {
+        return {...task, todo : editedTask}
+        
+      }
+      console.log(task)
+      return task;
+    });
+    setTasks(updatedTasks);
+    console.log(tasks)
+  };
+
   return (
     <>
     <div className='container-all'>
       <h1>To Do App</h1>
       <div className='todo-container'>
 
-      
       <CreateTodo onCreateTodo={createTodo} />
         {tasks.map((task) => {
-          return <TodoDisplay  key={task.id} task={task} onDelete={deleteTask} />
+          return <TodoDisplay  key={task.id} task={task} onDelete={deleteTask} onEdit={editTask} />
         })}
     </div>
     </div>
