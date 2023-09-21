@@ -14,9 +14,6 @@ export const CreateTodo = ({onCreateTodo}) => {
             onCreateTodo(todo);
             setTodo('')
         }
-        else(
-            alert("No data")
-        )
 
     }
 
