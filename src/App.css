@@ -33,6 +33,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .todo-input{
@@ -46,12 +47,17 @@ h1 {
     text-indent: 10px;
     margin-bottom: 30px;
     flex-wrap: wrap;
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Black Ops One', sans-serif;
 }
 
 .todo-input::placeholder {
-    opacity: 0%;
     font-family: Arial,sans-serif;
+}
+
+.todo-display{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 80%;
 }
 
 .add-button{
@@ -87,10 +93,15 @@ h1 {
     align-items: center;
     border-radius: 5px;
     margin-bottom: 30px;
-    height: 60px;
     cursor: pointer;
     border: 1px solid #0077b6;
     text-indent: 10px;
+}
+
+.todo-display{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0;
 }
 
 .show-task{
@@ -194,5 +205,5 @@ h1 {
     text-indent: 10px;
     margin-bottom: 30px;
     flex-wrap: wrap;
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Black Ops One', sans-serif;
 }

@@ -30,7 +30,7 @@ export const TodoDisplay = ({task,onDelete,onEdit}) => {
 
     return (
             <div className="task">
-                <p>{Todo}</p>
+                <p className='todo-display'>{Todo}</p>
                 <div>
                     <button className="todo-btn">
                         <BiEdit className='edit-icon' icon={BiEdit} size={30} onClick={handleEditClick} />

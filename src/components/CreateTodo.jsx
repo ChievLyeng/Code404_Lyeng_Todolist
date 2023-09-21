@@ -23,7 +23,7 @@ export const CreateTodo = ({onCreateTodo}) => {
     return (
         <div onSubmit={handleSubmit}>
             <form className="todo-form">
-                <input className="todo-input" type="text" placeholder="What are your tasks ?"
+                <input className="todo-input" placeholder="Write your task here"
                  value={todo} onChange={handleChange}
                   />
                 <button className="add-button">Add</button>
