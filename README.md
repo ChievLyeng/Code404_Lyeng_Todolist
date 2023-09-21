@@ -1,7 +1,5 @@
-# [Demo App]()
-
 # Todo List App
-
+This todo app is designed for users to note their task easier and manage their daily task. App built with React and style with css. This app has add feature,edti feature and delete featue. 
 
 
 ### Tech stack
@@ -15,18 +13,17 @@
 * Add Task : Users can add their tasks by typing the text on the input box.
 * Delete Task : Users can delete their tasks by click the delete button.
 * Edit Task : Users can edit the task by clicking on the edit button then input text will   pop up after edited they can click the save button to save back the task. 
-* Task Status : Users can click the chcek box to mark their completed tasks and it will cross the task .
 
 # Convention Guide
 [Convention Guide](https://www.notion.so/ToDoList-Convention-Guide-92e163c2fbb2494994c690f6831d19ee)
 
 
 # Figma Design 
-[UI Design](https://www.figma.com/file/AaTnuaIdN8ijLRHFMrZrxR/ToDo-List?type=design&node-id=0-1&mode=design&t=kYziiJpieS27uEMl-0)
+[Link to UI](https://www.figma.com/file/qpieMsiwcrkflRcjBKsdVD/TodoList-App?type=design&node-id=1%3A258&mode=design&t=cqTbVijeff8pIL4D-1)
 
 
 # App Flow
-[Todo App Flow](https://drive.google.com/file/d/1jNTyESUXaCAJH9T5rSLAfbt-mfhEduw2/view?usp=sharing)
+[Todo App Flow](https://drive.google.com/file/d/1k2qe328zNwtFWB900mDUHQAfEbuZyamz/view?usp=sharing)
 
 # Git Flow Method
 
@@ -42,6 +39,7 @@ There are 4 components in this todolist app.
 
 # Module
 * Installed npm module.
+* Installed react-icons.
 
 # Reflection
 * I realize that follow the tutorial is make me know just a thing but if I followed it and try to do the project on my own I will get the longterm knowledge.
@@ -52,3 +50,4 @@ There are 4 components in this todolist app.
 * I have learned how to create the pop up modal box for confirmation from users.
     
 # Other
+* I have done this todo list project by studied from the udemy course that recommended by school. I also doing more research on google too.
