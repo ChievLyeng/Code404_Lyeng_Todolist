@@ -7,7 +7,7 @@ import { ModifyTodo } from './ModifyTodo';
 export const TodoDisplay = ({task,onDelete,onEdit}) => {
     const [confirm,setConfirm] = useState(false);    
     const [showEdit,setShowEdit] = useState(false);
-    console.log(task)
+
     const handleDelete = () => {
       setConfirm(true)
     }
