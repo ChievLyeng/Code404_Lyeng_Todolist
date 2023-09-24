@@ -8,7 +8,6 @@ export const DeleteModal = ({task,onDelete,confirm}) => {
         confirm(false)
     }
     
-    console.log(confirm)
     return (
         <div className="modal-container">
             <div className="confirm-box">
