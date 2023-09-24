@@ -31,7 +31,7 @@ This todo app is designed for users to note their task easier and manage their d
 
 # App components Flow
 There are 4 components in this todolist app.
-* CreateTodo.jsx : this components use to create todo by get call of app.jsx then it has the input text and received the text from user. After recieved text it pass the prop back to app.jsx. 
+* CreateTodo.jsx : this components use to create todo by get call of app.jsx then it has the input text and received the text from user. After recieved text it pass the prop back to app.jsx. There also have the popup dailog box when no data.
 * TodoDisplay.jsx : this components also get call by app.jsx.It recieve the state that store todo data that pass from createTodo.jsx and the display todo data to the screen.
 * DeleteModal.jsx : this components is work as the delete pop up confirmation modal. If users click the delete button or cancel button it will pass the prop back to TodoDisplay.jsx.
 * ModifyTodo.jsx : this component is use for pop up the edit modal and reciecve what users want to edit then pass the data back via prop to TodoDisplay.jsx.

@@ -9,7 +9,7 @@ body{
     border: 1px;
     border-radius: 10px;
     transition: ease all .3s;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 h1 {
@@ -130,7 +130,7 @@ h1 {
     height: 240px;
     display: flex;
     justify-content: center;
-    margin-top: 240px;
+    margin-top: 160px;
     border-radius: 10px;
 }
 
@@ -185,7 +185,7 @@ h1 {
     height: 240px;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 160px;
     border-radius: 10px;
 }
 

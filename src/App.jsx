@@ -34,7 +34,6 @@ function App() {
       return task;
     });
     setTasks(updatedTasks);
-    console.log(tasks)
   };
 
   return (
